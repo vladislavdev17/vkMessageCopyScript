@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Message Parser</title>
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript" src="parser.js"></script>
+</head>
+<body>
+	<div id="form">
+		<textarea id="codeInputArea" placeholder="Вставь код сюда"></textarea>
+		<button id="parseBtn">Получить сообщения</button>
+	</div>
+	<div id="buffer"></div>
+	<div id="ultimateMessageBlock">
+		<h2>Сообщений - <span class="mesCount"></span></h3><button id="copyBtn">Копировать</button><br />
+		<div id="mainMessageText"></div>
+	</div>
+</body>
+</html>
